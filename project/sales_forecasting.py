@@ -186,7 +186,6 @@ We use Linear Regression as a simple baseline model.
 It helps compare performance with more advanced models.
 """
 
-# IMPROVEMENT 1 (cont.) — renamed 'model' to 'lr_model' for clarity
 lr_model = LinearRegression()
 lr_model.fit(X_train, y_train)
 
